@@ -26,6 +26,6 @@ This ensures accurate and context-aware responses while reducing hallucinations.
 
 <li>LLM – For natural language generation</li>
 
-PDF Retriever – To extract and index restaurant information
+<li>PDF Retriever – To extract and index restaurant information</li>
 
-Simple Web Interface – For chatting with the RAG bot
+<li>Simple Web Interface – For chatting with the RAG bot</li>
