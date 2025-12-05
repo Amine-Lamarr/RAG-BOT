@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain_openai import ChatOpenAI 
 from langchain.chat_models import ChatOpenAI
 # from langchain.vectorstores import faiss
 from langchain.memory import ConversationBufferMemory
@@ -105,3 +104,4 @@ else:
         qst = "how much is a chicken tagine ?"
         response = Agent(qst, retriever)
         print(f"\nAnswer: {response}")
+
